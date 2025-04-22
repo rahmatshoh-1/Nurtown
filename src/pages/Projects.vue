@@ -11,7 +11,7 @@ const projects = ref([
 </script>
 <template>
   <div class="container mx-auto">
-    <h1 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
+    <h1 class="text-[44px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
       <span class="text-[#bdbdbd] font-normal">НАШИ</span><br />ПРОЕКТЫ
     </h1>
 
@@ -26,7 +26,7 @@ const projects = ref([
         <!-- Правая часть: текст -->
         <div class="col-span-12 lg:col-span-6 p-[30px] flex flex-col justify-between">
           <div>
-            <h2 class="text-[40px] font-light mb-4">
+            <h2 class="text-[32px] md:text-[40px] font-light mb-4">
               {{ projectItem.title }}
             </h2>
             <p class="text-[#4F4F4F] mb-[64px]">

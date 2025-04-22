@@ -20,12 +20,12 @@ function openLightbox(index) {
 </script>
 <template>
   <div class="container mx-auto">
-    <h1 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
+    <h1 class="text-[44px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
       <span class="text-[#bdbdbd] font-normal">сертификаты</span><br />КОМПАНИИ
     </h1>
     <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[75px] my-[60px]">
-      <li v-for="certificateItem in certificates" :key="certificateItem.id" class="relative group cursor-pointer">
-        <img class="w-full object-cover"  @click="openLightbox(id)" :src="certificateItem.imgUrl" :alt="certificateItem.alt">
+      <li v-for="(certificateItem, index) in certificates" :key="certificateItem.id" class="relative group cursor-pointer">
+        <img class="w-full object-cover"  @click="openLightbox(index)" :src="certificateItem.imgUrl" :alt="certificateItem.alt">
       </li>
     </ul>
     <div class="flex justify-end items-center">

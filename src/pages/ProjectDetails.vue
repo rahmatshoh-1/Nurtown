@@ -18,7 +18,7 @@ const project = computed(() => {
 
 <template>
   <div v-if="project" class="container mx-auto">
-    <h1 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
+    <h1 class="text-[44px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
       <span class="text-[#bdbdbd] font-normal">ПРОЕКТ:</span><br />
       {{ project.title }}
     </h1>

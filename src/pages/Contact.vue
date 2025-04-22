@@ -9,7 +9,7 @@ import { ref } from 'vue';
   <div class="container mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-12">
       <div class="col-span-6 mb-[32px]">
-        <h1 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
+        <h1 class="text-[44px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
           <span class="text-[#bdbdbd] font-normal">КОНТАКТНАЯ</span><br />ИНФОРМАЦИЯ
         </h1>
         <div class="my-[32px]">
