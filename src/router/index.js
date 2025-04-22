@@ -7,6 +7,7 @@ import Certificates from "@/pages/Certificates.vue";
 import Contact from "@/pages/Contact.vue";
 
 const routes = [
+  { path: "/", redirect: "/home" }, 
   { path: "/home", name: "Home", component: Home },
   { path: "/gallery", name: "Gallery", component: Gallery },
   { path: "/projects", name: "Projects", component: Projects },
