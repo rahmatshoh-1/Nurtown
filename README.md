@@ -1,4 +1,6 @@
 # nurtown
+![Screenshot_1](https://github.com/user-attachments/assets/8ac543bd-5a5e-4f8c-baf7-12e7eba8498d)
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
