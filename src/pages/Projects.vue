@@ -11,7 +11,7 @@ const projects = ref([
 </script>
 <template>
   <div class="container mx-auto">
-    <h1 class="text-[64px] leading-16 text-[#333333] font-bold uppercase">
+    <h1 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
       <span class="text-[#bdbdbd] font-normal">НАШИ</span><br />ПРОЕКТЫ
     </h1>
 

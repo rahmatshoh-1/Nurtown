@@ -28,7 +28,7 @@ const gallary = ref([
 </script>
 <template>
   <div class="container mx-auto">
-    <h1 class="text-[64px] leading-16 text-[#333333] font-bold uppercase">
+    <h1 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-bold uppercase">
       <span class="text-[#bdbdbd] font-normal">ГАЛЕРЕЯ</span><br />ФОТОГРАФИЙ
     </h1>
     <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[30px] my-[60px]">

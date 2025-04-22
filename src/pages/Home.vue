@@ -23,7 +23,7 @@ const slider = ref([
         <img class="w-full object-cover" src="/images/thumb-3.png" alt="">
       </div>
       <div class="lg:col-span-4">
-        <h2 class="text-[64px] leading-16 text-[#333333] font-light">О компании</h2>
+        <h2 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-light">О компании</h2>
         <p class="my-5">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
           standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -35,11 +35,11 @@ const slider = ref([
     </section>
     <!-- Main Tasks -->
     <section class="grid lg:grid-cols-12 items-center gap-[30px] my-[120px] py-[30px]">
-      <h2 class="text-[64px] leading-16 text-[#333333] font-light col-span-12 mb-[60px]">Основные задачи</h2>
+      <h2 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-light col-span-12 mb-[60px]">Основные задачи</h2>
       <div class="col-span-12 lg:col-span-6">
-        <div class="flex justify-start items-center">
+        <div class="flex justify-start items-start">
           <img src="/images/icons/1.svg" alt="">
-          <p class="ml-[30px] text-[22px]">Создание комфортных<br> условий и повышение<br> качества обслуживания<br>
+          <p class="ml-[30px] text-[22px]">Создание комфортных условий и повышение качества обслуживания
             клиентов</p>
         </div>
       </div>
@@ -55,7 +55,7 @@ const slider = ref([
     </section>
     <!-- Our Projects -->
     <section class="grid grid-cols-12 items-center gap-[30px] my-[120px] py-[30px]">
-      <h2 class="text-[64px] leading-16 text-[#333333] font-light col-span-12 mb-[60px]">Наши проекты</h2>
+      <h2 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-light col-span-12 mb-[60px]">Наши проекты</h2>
       <div class="col-span-12 lg:col-span-6">
         <div class="flex justify-start items-center">
           <div
@@ -66,7 +66,7 @@ const slider = ref([
 
             <!-- Контент поверх фона -->
             <div class="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p class="text-[64px] leading-16">ДОСУГОВЫЙ ЦЕНТР</p>
+              <p class="text-[48px] md:text-[64px] leading-16">ДОСУГОВЫЙ ЦЕНТР</p>
               <button class="inline-flex gap-3">
                 ПОДРОБНЕЕ
                 <img src="/images/icons/arrow-white.svg" alt="">
@@ -85,7 +85,7 @@ const slider = ref([
 
             <!-- Контент поверх фона -->
             <div class="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p class="text-[64px] leading-16">ДОСУГОВЫЙ ЦЕНТР</p>
+              <p class="text-[48px] md:text-[64px] leading-16">ДОСУГОВЫЙ ЦЕНТР</p>
               <button class="inline-flex gap-3">
                 ПОДРОБНЕЕ
                 <img src="/images/icons/arrow-white.svg" alt="">
@@ -123,7 +123,7 @@ const slider = ref([
 
             <!-- Контент поверх фона -->
             <div class="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p class="text-[64px] leading-16">ДОСУГОВЫЙ ЦЕНТР</p>
+              <p class="text-[48px] md:text-[64px] leading-16">ДОСУГОВЫЙ ЦЕНТР</p>
               <button class="inline-flex gap-3">
                 ПОДРОБНЕЕ
                 <img src="/images/icons/arrow-white.svg" alt="">
@@ -159,7 +159,7 @@ const slider = ref([
     </section>
     <!-- Form -->
     <section>
-      <h2 class="text-[64px] leading-16 text-[#333333] font-light mb-[20px]">Связаться с нами</h2>
+      <h2 class="text-[48px] md:text-[64px] leading-16 text-[#333333] font-light mb-[20px]">Связаться с нами</h2>
       <div class="grid grid-cols-12 gap-[30px]">
         <form action="#" class="col-span-12 lg:col-span-4">
           <input type="text" class="bg-[#f3f3f3] px-[20px] py-[15px] mb-[10px] w-full" placeholder="Имя">
